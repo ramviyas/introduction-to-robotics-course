@@ -6,5 +6,7 @@ Then, add the following lines in your ~/.bashrc file so that GAZEBO will load th
 Replace "your_workspace" with the name of your workspace and make sure the full path of the "maze_simulation" package is correct.
 
 export GAZEBO_PLUGIN_PATH= path_to_your_workspace/src/maze_simulation/lib:${GAZEBO_PLUGIN_PATH}
+
 export GAZEBO_MODEL_PATH= path_to_your_workspace/src/maze_simulation/models:${GAZEBO_MODEL_PATH}
+
 export GAZEBO_RESOURCE_PATH= path_to_your_workspace/src/maze_simulation/models:${GAZEBO_RESOURCE_PATH}
